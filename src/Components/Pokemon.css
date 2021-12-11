@@ -42,10 +42,12 @@ img {
     font-weight: bold;
 }
 
+#button-prev:hover {
+    background-color: rgba(71, 255, 141, 0.452);
+}
 
 
-
-.pikachu button :hover {
+#button-next:hover {
     background-color: rgba(255, 99, 71, 0.452);
 }
 
@@ -56,7 +58,5 @@ img {
         font-size: 2rem;
         text-shadow: 4px 4px 2px rgb(243, 169, 8);
         text-align: center;
-
-
 }
 }
