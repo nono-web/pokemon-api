@@ -1,0 +1,17 @@
+.pika-header  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .pika-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+}
