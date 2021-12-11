@@ -29,8 +29,8 @@ return (
         <h3 >Hello Trainer, you just captured {poke.name}</h3>
         <h4 >The N° {poke.id} in the Pokedex </h4>
         <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/${poke.id}.svg`} alt={poke.name} />
-        <button  type="button" onClick={() => getPokeApi(pokeid - 1)}>Prev</button>
-        <button  type="button" onClick={() => getPokeApi(pokeid + 1)} >Next</button>
+        <button id='button-prev'  type="button" onClick={() => getPokeApi(pokeid - 1)}>Prev</button>
+        <button id='button-next'  type="button" onClick={() => getPokeApi(pokeid + 1)} >Next</button>
     </div>
 )
 

@@ -42,7 +42,10 @@ img {
     font-weight: bold;
 }
 
-.pikachu button :hover {
+
+
+
+.pikachu :hover {
     background-color: rgba(255, 99, 71, 0.452);
 }
 
