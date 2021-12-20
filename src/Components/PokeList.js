@@ -22,7 +22,8 @@ const getPokeApi = (id) => {
 useEffect(() => {
     getPokeApi(pokeid)
     console.log(poke)
-},[pokeid]);
+     // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [pokeid]);
 
 return (
     <div className='pikachu'>
